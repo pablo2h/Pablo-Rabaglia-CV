@@ -1,0 +1,9 @@
+node_modules/
+.svelte-kit/
+build/
+.vercel/
+.env*
+dist/
+coverage/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,21 @@
+/*
+  CSS global del proyecto.
+  - Integra Tailwind
+  - Estilos mínimos por defecto
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globales mínimos */
+html, body, #svelte { height: 100%; }
+body {
+  /* Color base, se ajustará más adelante con paleta de marca */
+  background-color: #111827; /* gray-900 por defecto */
+  color: #ffffff;
+}
+
+/* Utilidades opcionales */
+.container {
+  @apply max-w-7xl mx-auto px-4;
+}
