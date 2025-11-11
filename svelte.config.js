@@ -1,5 +1,5 @@
-// Configuración base de SvelteKit con adapter-auto
-import adapter from '@sveltejs/adapter-auto';
+// Configuración de SvelteKit con adapter para Vercel
+import adapter from '@sveltejs/adapter-vercel';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {

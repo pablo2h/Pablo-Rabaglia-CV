@@ -3,7 +3,11 @@
   "compilerOptions": {
     "checkJs": true,
     "allowJs": true,
-    "types": ["svelte", "vite/client"]
+    "baseUrl": ".",
+    "paths": {
+      "$lib/*": ["src/lib/*"]
+    },
+    "types": ["svelte", "sveltekit", "vite/client"]
   },
   "include": [
     "src/**/*.svelte",
