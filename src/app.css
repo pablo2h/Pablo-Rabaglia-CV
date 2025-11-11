@@ -1,18 +1,51 @@
 /*
   CSS global del proyecto.
   - Integra Tailwind
-  - Estilos mínimos por defecto
+  - Estilos globales y tipografías de marca
 */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Estilos globales mínimos */
-html, body, #svelte { height: 100%; }
-body {
-  /* Color base, se ajustará más adelante con paleta de marca */
-  background-color: #111827; /* gray-900 por defecto */
-  color: #ffffff;
+/*
+  Fuentes de marca
+  Nota: Agregar los archivos reales (woff2/woff) en /public o /static bajo /fonts
+  y ajustar las rutas. Se usan nombres exactamente como en la guía.
+*/
+@font-face {
+  font-family: 'Druk Wide Heavy';
+  src: url('/fonts/DrukWideHeavy.woff2') format('woff2'),
+       url('/fonts/DrukWideHeavy.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Condensed Extrabold';
+  src: url('/fonts/FuturaCondensedExtraBold.woff2') format('woff2'),
+       url('/fonts/FuturaCondensedExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Unica Medium';
+  src: url('/fonts/NeueHaasUnica-Medium.woff2') format('woff2'),
+       url('/fonts/NeueHaasUnica-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Estilos globales base usando Tailwind (@layer base) */
+@layer base {
+  html, body, #svelte { height: 100%; }
+  body {
+    /* Aplica fondo y color de texto de la paleta, más tipografía por defecto */
+    @apply bg-negro-bg text-blanco-texto font-body;
+  }
 }
 
 /* Utilidades opcionales */
