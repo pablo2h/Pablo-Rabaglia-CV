@@ -1,0 +1,7 @@
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globales por defecto (usar clases en app.html para fondo/texto) */
+:root { color-scheme: light; }
