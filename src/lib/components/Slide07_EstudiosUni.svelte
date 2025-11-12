@@ -8,16 +8,18 @@
 
   <!-- Contenedor de lista -->
   <div class="flex flex-col gap-4 max-w-lg w-full">
-    <!-- Item 1: justify-between -->
-    <div class="bg-blanco-texto text-negro-bg rounded-md p-4 flex items-center justify-between">
+    <!-- Item 1: carrera, institución, estado -->
+    <div class="bg-blanco-texto text-negro-bg rounded-md p-4 grid grid-cols-3 gap-4 items-center">
       <span class="font-display text-2xl">Abogacia</span>
-      <span class="font-body text-xl font-bold">ABANDONADO</span>
+      <span class="font-body text-xl text-center">UCA</span>
+      <span class="font-body text-xl font-bold text-right">ABANDONADO</span>
     </div>
 
-    <!-- Item 2: justify-between -->
-    <div class="bg-blanco-texto text-negro-bg rounded-md p-4 flex items-center justify-between">
+    <!-- Item 2: carrera, institución, estado -->
+    <div class="bg-blanco-texto text-negro-bg rounded-md p-4 grid grid-cols-3 gap-4 items-center">
       <span class="font-display text-2xl">Informatica</span>
-      <span class="font-body text-xl font-bold">ABANDONADO</span>
+      <span class="font-body text-xl text-center">UNL</span>
+      <span class="font-body text-xl font-bold text-right">ABANDONADO</span>
     </div>
 
     <!-- Item 3: justify-center -->

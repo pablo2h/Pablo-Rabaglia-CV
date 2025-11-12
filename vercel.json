@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source": "/pablorabaglia", "destination": "/holablender", "permanent": false },
+    { "source": "/pablorabaglia/(.*)", "destination": "/holablender/$1", "permanent": false }
+  ]
+}

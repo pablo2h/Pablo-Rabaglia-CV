@@ -12,11 +12,11 @@
 
   <!-- Nueva lista en 3 columnas -->
   <div class="flex flex-col gap-4 max-w-3xl w-full">
-    <!-- Item 1: 2019 | Clandestina | (Rol a definir) -->
+    <!-- Item 1: 2019 | Clandestina | Coordinador -->
     <div class="bg-blanco-texto text-negro-bg rounded-md p-4 grid grid-cols-3 gap-4 items-center">
       <span class="font-display text-2xl">2019</span>
       <img src={`${base}/logos/clandestina-logo.jpg`} alt="Clandestina" class="h-12 object-contain mx-auto" />
-      <span class="font-body text-xl text-right">(Rol a definir)</span>
+      <span class="font-body text-xl text-right">Distribución y Producción</span>
     </div>
 
     <!-- Item 2: 2024 | Barro | Dirección General -->
@@ -26,11 +26,11 @@
       <span class="font-body text-xl text-right">Dirección General</span>
     </div>
 
-    <!-- Item 3: 2024 | /cde | (Rol a definir) -->
+    <!-- Item 3: 2024 | /cde | Dirección General -->
     <div class="bg-blanco-texto text-negro-bg rounded-md p-4 grid grid-cols-3 gap-4 items-center">
       <span class="font-display text-2xl">2024</span>
       <img src={`${base}/logos/cde-logo.png`} alt="/cde" class="h-12 object-contain mx-auto" />
-      <span class="font-body text-xl text-right">(Rol a definir)</span>
+      <span class="font-body text-xl text-right">Coordinador</span>
     </div>
 
     <!-- Item 4: 2024 | BLENDER STREAM LAB | Ganador -->
@@ -47,11 +47,11 @@
       <span class="font-body text-xl text-right">Producción Conducción</span>
     </div>
 
-    <!-- Item 6: 2025 | Dora | (Rol a definir) -->
+    <!-- Item 6: 2025 | Dora | Distribución y Producción -->
     <div class="bg-blanco-texto text-negro-bg rounded-md p-4 grid grid-cols-3 gap-4 items-center">
       <span class="font-display text-2xl">2025</span>
       <img src={`${base}/logos/dora-logo.png`} alt="Dora" class="h-12 object-contain mx-auto" />
-      <span class="font-body text-xl text-right">(Rol a definir)</span>
+      <span class="font-body text-xl text-right">Dirección General</span>
     </div>
 
     <!-- Item 7: 2025 | BLENDER STREAM LAB (2da Ed.) | Ganador -->

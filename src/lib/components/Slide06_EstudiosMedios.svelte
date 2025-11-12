@@ -9,32 +9,37 @@
   <!-- Contenedor de lista -->
   <div class="flex flex-col gap-4 max-w-lg w-full">
     <!-- Item 1 -->
-    <div class="bg-blanco-texto text-negro-bg rounded-md p-4 flex flex-row items-center justify-between">
+    <div class="bg-blanco-texto text-negro-bg rounded-md p-4 grid grid-cols-3 gap-4 items-center">
       <span class="font-display text-2xl">2018</span>
+      <span class="font-body text-xl text-center">PHS</span>
       <span class="font-body text-xl text-right">Bachiller Economia</span>
     </div>
 
     <!-- Item 2 -->
-    <div class="bg-blanco-texto text-negro-bg rounded-md p-4 flex flex-row items-center justify-between">
+    <div class="bg-blanco-texto text-negro-bg rounded-md p-4 grid grid-cols-3 gap-4 items-center">
       <span class="font-display text-2xl">2023</span>
+      <span class="font-body text-xl text-center">CODER</span>
       <span class="font-body text-xl text-right">Diseño de producto</span>
     </div>
 
     <!-- Item 3 -->
-    <div class="bg-blanco-texto text-negro-bg rounded-md p-4 flex flex-row items-center justify-between">
+    <div class="bg-blanco-texto text-negro-bg rounded-md p-4 grid grid-cols-3 gap-4 items-center">
       <span class="font-display text-2xl">2023</span>
+      <span class="font-body text-xl text-center">CODER</span>
       <span class="font-body text-xl text-right">Gestion de proyectos</span>
     </div>
 
     <!-- Item 4 -->
-    <div class="bg-blanco-texto text-negro-bg rounded-md p-4 flex flex-row items-center justify-between">
+    <div class="bg-blanco-texto text-negro-bg rounded-md p-4 grid grid-cols-3 gap-4 items-center">
       <span class="font-display text-2xl">2024</span>
+      <span class="font-body text-xl text-center">ICC</span>
       <span class="font-body text-xl text-right">Gestion cultural</span>
     </div>
 
     <!-- Item 5 -->
-    <div class="bg-blanco-texto text-negro-bg rounded-md p-4 flex flex-row items-center justify-between">
+    <div class="bg-blanco-texto text-negro-bg rounded-md p-4 grid grid-cols-3 gap-4 items-center">
       <span class="font-display text-2xl">2025</span>
+      <span class="font-body text-xl text-center">ICC</span>
       <span class="font-body text-xl text-right">Medicion cultural de triple impacto</span>
     </div>
   </div>
