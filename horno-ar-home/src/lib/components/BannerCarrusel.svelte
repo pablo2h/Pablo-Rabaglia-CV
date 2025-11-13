@@ -22,21 +22,22 @@
     SplideSlideComp = mod.SplideSlide;
   });
 </script>
+<!-- Banner Carrusel: despliega items informativos en un carrusel -->
 {#if SplideComp && SplideSlideComp}
-  <svelte:component this={SplideComp} {options} aria-label="Carrusel de banners" class="w-full max-w-md mx-auto bg-horno-gris rounded-xl overflow-hidden">
+  <svelte:component this={SplideComp} {options} aria-label="Carrusel de banners" class="banner-card banner-padding banner-card--gris">
     <svelte:component this={SplideSlideComp}>
       <div class="h-24 sm:h-28 md:h-32 lg:h-40 p-4 sm:p-6 md:p-8 flex items-center justify-center">
-        <h2 class="text-2xl font-semibold text-horno-negro">Banner 1</h2>
+        <h2 class="subheading font-semibold text-horno-negro">Banner 1</h2>
       </div>
     </svelte:component>
     <svelte:component this={SplideSlideComp}>
       <div class="h-24 sm:h-28 md:h-32 lg:h-40 p-4 sm:p-6 md:p-8 flex items-center justify-center">
-        <h2 class="text-2xl font-semibold text-horno-negro">Banner 2</h2>
+        <h2 class="subheading font-semibold text-horno-negro">Banner 2</h2>
       </div>
     </svelte:component>
     <svelte:component this={SplideSlideComp}>
       <div class="h-24 sm:h-28 md:h-32 lg:h-40 p-4 sm:p-6 md:p-8 flex items-center justify-center">
-        <h2 class="text-2xl font-semibold text-horno-negro">Banner 3</h2>
+        <h2 class="subheading font-semibold text-horno-negro">Banner 3</h2>
       </div>
     </svelte:component>
   </svelte:component>

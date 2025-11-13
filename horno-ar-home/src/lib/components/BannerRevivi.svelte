@@ -1,6 +1,7 @@
-<div class="w-full max-w-md mx-auto bg-horno-gris rounded-xl h-20 sm:h-24 md:h-28 lg:h-32 p-3 sm:p-4 md:p-6 flex flex-row items-center justify-between overflow-hidden">
+<!-- Banner Revivi: lema y logo vertical de la edición Groove -->
+<div class="banner-card banner-padding banner-card--blanco flex flex-row items-center justify-around">
   <div class="flex flex-col">
-    <span class="text-5xl font-bold text-horno-negro">revivi</span>
+    <span class="heading-1 font-bold text-horno-negro">revivi</span>
     <span class="text-4xl font-bold text-horno-negro">◄◄</span>
   </div>
   <img

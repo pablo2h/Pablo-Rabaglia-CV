@@ -5,15 +5,25 @@
   import BannerProximamente from '$lib/components/BannerProximamente.svelte';
   import BannerIdea from '$lib/components/BannerIdea.svelte';
   import BannerCarrusel from '$lib/components/BannerCarrusel.svelte';
+  import BannerWebMeditaciones from '$lib/components/BannerWebMeditaciones.svelte';
   import Footer from '$lib/components/Footer.svelte';
 </script>
 
-<main class="mx-auto w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg flex flex-col items-center gap-4 p-3 sm:p-4">
+<div class="h-screen grid grid-rows-[auto_1fr_auto]">
   <Header />
-  <BannerDora />
-  <BannerRevivi />
-  <BannerProximamente />
-  <BannerIdea />
-  <BannerCarrusel />
+
+  <main class="overflow-y-auto">
+    <div id="banner-container" class="container-narrow space-md flex flex-col items-center">
+      <BannerWebMeditaciones />
+      <BannerDora />
+      <BannerRevivi />
+      <BannerProximamente />
+      <BannerIdea />
+      <BannerCarrusel />
+    </div>
+  </main>
+
   <Footer />
-</main>
+</div>
+
+<!-- Estilos globales eliminados: ahora todo se maneja por clases estándar -->

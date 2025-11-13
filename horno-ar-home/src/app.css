@@ -3,5 +3,65 @@
 @tailwind components;
 @tailwind utilities;
 
+@reference "tailwindcss";
+
 /* Estilos globales por defecto (usar clases en app.html para fondo/texto) */
 :root { color-scheme: light; }
+@layer components {
+  /* Contenedores */
+  .container-narrow { @apply max-w-md mx-auto; }
+  .container-default { @apply max-w-lg mx-auto; }
+  .container-wide { @apply max-w-2xl mx-auto; }
+
+  /* Espaciados estandar */
+  .space-sm { @apply p-3 gap-3; }
+  .space-md { @apply p-6 gap-4; }
+  .space-lg { @apply p-8 gap-6; }
+
+  /* Tarjetas de banner */
+  .banner-card { @apply w-full overflow-hidden rounded-2xl; }
+  .banner-padding { @apply p-6; }
+  .banner-card img { @apply max-w-full h-auto object-contain mx-auto; }
+
+  /* Modificadores de color */
+  .banner-card--gris { background-color: var(--horno-gris); color: var(--horno-negro); }
+  .banner-card--blanco { background-color: var(--horno-blanco); color: var(--horno-negro); border: 1px solid var(--horno-gris); }
+  .banner-card--violeta { background-color: var(--horno-violeta); color: var(--horno-blanco); }
+  .banner-card--amarillo { background-color: var(--horno-amarillo); color: var(--horno-negro); }
+  .banner-card--negro { background-color: var(--horno-negro); color: var(--horno-blanco); }
+
+  /* Tipografía escalable */
+  .heading-1 { font-family: DynaPuff, system-ui, sans-serif; @apply text-4xl md:text-5xl; }
+  .heading-2 { font-family: DynaPuff, system-ui, sans-serif; @apply text-3xl md:text-4xl; }
+  .subheading { font-family: 'Baloo 2', system-ui, sans-serif; font-weight: 800; @apply text-xl md:text-2xl; }
+  .body-text { font-family: Poppins, system-ui, sans-serif; @apply text-base md:text-lg; }
+
+  /* Imagen responsiva reutilizable */
+  .img-responsive { @apply max-w-full h-auto object-contain mx-auto; }
+}
+
+/* Tema Dora con variables CSS */
+:root.theme-dora {
+  --dora-pink: #FC95BB;
+  --dora-yellow: #F5C92B;
+  --dora-orange: #FA8632;
+  --dora-red: #F05B31;
+  --dora-blue: #0083CF;
+  --dora-light-blue: #80C7D9;
+  --dora-green: #2DB092;
+  --dora-black: #000000;
+  --dora-gray: #F7F5F6;
+}
+
+/* Variables de tema Horno (disponibles por defecto) */
+:root,
+:root.theme-horno {
+  --horno-violeta: #4F26C0;
+  --horno-amarillo: #FFD900;
+  --horno-negro: #111111;
+  --horno-blanco: #FFFFFF;
+  --horno-gris: #F5F5F5;
+}
+
+/* Fondo configurable por variable opcional */
+.banner-card { background-color: var(--banner-bg, initial); }
