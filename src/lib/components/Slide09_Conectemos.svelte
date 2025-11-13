@@ -8,12 +8,12 @@
     </svg>`;
 </script>
 
-<div class="flex flex-col items-center justify-center h-screen p-4">
-  <h2 class="font-display text-6xl mb-8">¡Conectemos!</h2>
+<div class="flex flex-col items-center justify-center h-full p-4">
+  <h2 class="font-display text-6xl lg:text-7xl xl:text-8xl mb-8">¡Conectemos!</h2>
 
   <div class="flex flex-col gap-4 items-start">
     <a href="https://www.instagram.com/pablorabaglia/" target="_blank" rel="noopener noreferrer" class="flex flex-row items-center gap-3">
-      <span class="font-display text-5xl">Instagram</span>
+      <span class="font-display text-5xl lg:text-6xl xl:text-7xl">Instagram</span>
       {@html externalIconSvg}
     </a>
     <a href="https://www.linkedin.com/in/pablo-rabaglia/" target="_blank" rel="noopener noreferrer" class="flex flex-row items-center gap-3">

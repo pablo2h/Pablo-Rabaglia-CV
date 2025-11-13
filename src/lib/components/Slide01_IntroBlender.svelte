@@ -8,20 +8,15 @@
   const logoSrc = `${base}/logos/blender-logo.jpg`;
 </script>
 
-<!--
-  Slide de introducción
-  - Contenedor full-screen
-  - Texto y logo dispuestos en fila (lado a lado)
--->
-<div class="flex h-screen items-center justify-start md:justify-center px-4">
-  <div class="flex flex-col md:flex-row items-center md:items-center gap-4 md:gap-8 w-full max-w-3xl">
-    <h1 class="font-display text-5xl md:text-6xl text-center md:text-left">
+<div class="flex h-full items-center justify-start md:justify-center px-4">
+  <div class="flex flex-col md:flex-row items-center md:items-center gap-4 md:gap-8 w-full max-w-3xl md:max-w-4xl lg:max-w-6xl lg:gap-12">
+    <h1 class="font-display text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-[10rem]">
       Hola equipo de
     </h1>
     <img
       src={logoSrc}
       alt="Logotipo de BLENDER"
-      class="h-40 md:h-32 w-auto rounded-md bg-negro-bg p-4"
+      class="h-56 sm:h-64 md:h-72 lg:h-80 xl:h-96 w-auto rounded-md bg-negro-bg p-4"
       loading="lazy"
       decoding="async"
     />

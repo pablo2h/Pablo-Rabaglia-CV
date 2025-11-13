@@ -8,39 +8,39 @@
   import { base } from '$app/paths';
 </script>
 
-<div class="h-screen flex items-center justify-center px-4">
+<div class="h-full flex items-center justify-center px-4 md:px-6 lg:px-8">
   <!-- Tarjeta principal -->
-  <div class="w-full max-w-md md:max-w-3xl rounded-lg bg-blanco-texto text-negro-bg p-5 md:p-8 shadow-sm max-h-[85vh] overflow-y-auto">
+  <div class="w-full max-w-md md:max-w-3xl lg:max-w-4xl xl:max-w-5xl rounded-lg bg-blanco-texto text-negro-bg p-5 md:p-8 lg:p-10 shadow-sm max-h-[85vh] overflow-y-auto">
     <!-- Foto de perfil -->
     <img
       src={`${base}/profile/profile-photo.jpg`}
       alt="Foto de Pablo Rabaglia"
-      class="mx-auto rounded-full h-24 w-24 md:h-32 md:w-32 object-cover mb-6"
+      class="mx-auto rounded-full h-24 w-24 md:h-32 md:w-32 lg:h-40 lg:w-40 object-cover mb-6"
     />
 
     <!-- Título -->
-    <div class="text-center font-body text-lg md:text-xl mb-4">Ficha de personaje</div>
+    <div class="text-center font-body text-lg md:text-xl lg:text-2xl mb-4">Ficha de personaje</div>
 
     <!-- Contenido en grid -->
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 lg:gap-6">
       <!-- Row 1 -->
-      <div class="bg-gray-300 rounded-md p-3 md:p-4 text-center md:col-span-2">
-        <div class="font-display text-sm md:text-lg">Nombre</div>
-        <div class="font-display text-lg md:text-2xl">Pablo Rabaglia</div>
+      <div class="bg-gray-300 rounded-md p-3 md:p-4 lg:p-5 text-center md:col-span-2">
+        <div class="font-display text-sm md:text-lg lg:text-xl">Nombre</div>
+        <div class="font-display text-lg md:text-2xl lg:text-3xl">Pablo Rabaglia</div>
       </div>
-      <div class="bg-gray-300 rounded-md p-3 md:p-4 text-center md:col-span-2">
-        <div class="font-display text-sm md:text-lg">Edad</div>
-        <div class="font-display text-lg md:text-2xl">25</div>
+      <div class="bg-gray-300 rounded-md p-3 md:p-4 lg:p-5 text-center md:col-span-2">
+        <div class="font-display text-sm md:text-lg lg:text-xl">Edad</div>
+        <div class="font-display text-lg md:text-2xl lg:text-3xl">25</div>
       </div>
 
       <!-- Row 2 -->
-      <div class="bg-gray-300 rounded-md p-3 md:p-4 text-center md:col-span-2">
-        <div class="font-display text-sm md:text-lg">Ciudad</div>
-        <div class="font-display text-lg md:text-2xl">Paraná, ER</div>
+      <div class="bg-gray-300 rounded-md p-3 md:p-4 lg:p-5 text-center md:col-span-2">
+        <div class="font-display text-sm md:text-lg lg:text-xl">Ciudad</div>
+        <div class="font-display text-lg md:text-2xl lg:text-3xl">Paraná, ER</div>
       </div>
-      <div class="bg-gray-300 rounded-md p-3 md:p-4 text-center md:col-span-2">
-        <div class="font-display text-sm md:text-lg">Ciudad</div>
-        <div class="font-display text-lg md:text-2xl">Paraná, ER</div>
+      <div class="bg-gray-300 rounded-md p-3 md:p-4 lg:p-5 text-center md:col-span-2">
+        <div class="font-display text-sm md:text-lg lg:text-xl">Ciudad</div>
+        <div class="font-display text-lg md:text-2xl lg:text-3xl">Paraná, ER</div>
       </div>
 
       <!-- Row 3 -->
@@ -54,7 +54,7 @@
       </div>
 
       <!-- Título de habilidades -->
-      <div class="col-span-2 md:col-span-4 text-center font-body text-sm md:text-lg">Puntos de habilidad: (de 0 a 10)</div>
+      <div class="col-span-2 md:col-span-4 text-center font-body text-sm md:text-lg lg:text-xl">Puntos de habilidad: (de 0 a 10)</div>
 
       <!-- Row 4 (skills) -->
       <div class="bg-gray-300 rounded-md p-3 md:p-4 text-center">

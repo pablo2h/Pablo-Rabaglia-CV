@@ -7,7 +7,7 @@ export default {
         // Paleta principal
         'negro-bg': '#191919',
         'blanco-texto': '#FEFEFE',
-        'amarillo-acento': '#FFE800',
+        'amarillo-acento': '#FFE400',
         'cyan-acento': '#91FCEA',
         // Paleta secundaria
         'naranja-acento': '#FA4A33',
@@ -15,9 +15,9 @@ export default {
         'violeta-acento': '#8B00CC'
       },
       fontFamily: {
-        display: ['Druk Wide Heavy', 'sans-serif'],
+        display: ['sans-serif'],
         condensed: ['Futura Condensed Extrabold', 'sans-serif'],
-        body: ['Neue Haas Unica Medium', 'sans-serif']
+        body: ['sans-serif']
       }
     }
   },

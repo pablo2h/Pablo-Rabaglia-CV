@@ -8,6 +8,7 @@
   import Slide07_EstudiosUni from '$lib/components/Slide07_EstudiosUni.svelte';
   import Slide08_MisTrabajos from '$lib/components/Slide08_MisTrabajos.svelte';
   import Slide09_Conectemos from '$lib/components/Slide09_Conectemos.svelte';
+  import Slide10_VideoCV from '$lib/components/Slide10_VideoCV.svelte';
   // Scroll Snap vertical: primer slide es un componente, el resto placeholders (2-9)
   // Ahora el segundo slide también es componente; placeholders (3-9)
   // Y ahora el tercero también es componente; placeholders (4-9)
@@ -62,6 +63,11 @@
   <!-- Octavo slide: mis trabajos (logos) -->
   <section class="h-screen snap-start flex items-center justify-center">
     <Slide08_MisTrabajos />
+  </section>
+
+  <!-- Décimo slide: video vertical autoplay -->
+  <section class="h-screen snap-start flex items-center justify-center">
+    <Slide10_VideoCV />
   </section>
 
   <!-- Noveno slide: conectemos (links) -->
